@@ -1,4 +1,5 @@
 cd android-recovery
+export LC_ALL=C
 . build/envsetup.sh
-lunch omni_yunluo-eng
-mka pbrp
+lunch pb_yunluo-eng
+mka vendorbootimage
